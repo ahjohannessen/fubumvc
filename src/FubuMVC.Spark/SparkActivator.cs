@@ -11,7 +11,7 @@ using Spark;
 
 namespace FubuMVC.Spark
 {
-	public class SparkActivator : IActivator
+    public class SparkActivator : IActivator
 	{
 		private readonly ITemplateRegistry _templateRegistry;
 		private readonly ISparkViewEngine _engine;
